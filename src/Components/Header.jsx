@@ -26,7 +26,7 @@ function Header() {
                 </div>
             </div>
             <div
-                className={`absolute z-20 right-0 w-1/2 max-w-full bg-white rounded-2xl p-4 transition duration-200 ml-auto ${
+                className={`absolute z-20 md:hidden right-0 w-1/2 max-w-full bg-white rounded-2xl p-4 transition duration-200 ml-auto ${
                     showMenu ? "translate-x-0" : "translate-x-52"
                 }`}
             >
