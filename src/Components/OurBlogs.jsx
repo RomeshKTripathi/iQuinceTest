@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import TextLink from "./TextLink";
 import Blog from "./Blog";
+import { blogData } from "../data/data";
 
 function OurBlogs() {
     return (
@@ -20,9 +21,9 @@ function OurBlogs() {
                 />
             </div>
             <div className="lg:grid lg:grid-cols-3 lg:gap-8 lg:mt-20 max-md:*:mb-8">
-                <Blog />
-                <Blog styles={"lg:-mt-12"} />
-                <Blog />
+                <Blog {...blogData[0]} />
+                <Blog {...blogData[1]} styles={"lg:-mt-12"} />
+                <Blog {...blogData[2]} />
             </div>
             <Button
                 text="View All Articles"

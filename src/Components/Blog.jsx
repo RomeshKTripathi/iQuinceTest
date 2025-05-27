@@ -3,7 +3,7 @@ import { blog1 } from "../assets/images";
 function Blog({ image, topic, title, description, author, date, styles }) {
     return (
         <div className={`w-full flex flex-col gap-4 ${styles}`}>
-            <img className="rounded-3xl" src={blog1} alt="" />
+            <img className="rounded-3xl" src={image ?? blog1} alt="" />
             <div className="flex justify-between">
                 <span className="block bg-my-green text-white py-2 px-5 text-sm rounded-full">
                     {topic ?? "Topic"}

@@ -1,4 +1,4 @@
-import { profile1 } from "../assets/images";
+import { blog1, blog2, blog3, profile1 } from "../assets/images";
 import { profile2 } from "../assets/images";
 import { profile3 } from "../assets/images";
 
@@ -23,6 +23,36 @@ export const locations = [
     { id: 18, name: "Indonesia" },
     { id: 19, name: "Thailand" },
     { id: 20, name: "Vietnam" },
+];
+
+export const blogData = [
+    {
+        title: "New Year, New You: Prioritizing Mental Wellness in January!",
+        description:
+            "The start of a new year is always a time of reflection and renewal. It’s when we think about our goals, set resolutions, and dream of becoming the best versions of ourselves",
+        topic: "Mental Awareness Calendar",
+        author: "Nomvelo",
+        date: "January 6, 2025",
+        image: blog1,
+    },
+    {
+        title: "How To Find Strength In Grief Counseling?",
+        description:
+            "Grief is a natural response to loss, yet it can be one of the most challenging experiences we go through.",
+        topic: "Grief",
+        author: "Conscientia",
+        date: "January 6, 2025",
+        image: blog2,
+    },
+    {
+        title: "Where To Get ADHD Testing",
+        description:
+            "Attention Deficit Hyperactivity Disorder (ADHD) is a common neurodevelopmental disorder that affects both children and adults. ",
+        topic: "ADHD Testing",
+        author: "Nomvelo",
+        date: "January 6, 2025",
+        image: blog3,
+    },
 ];
 
 export const links = [
