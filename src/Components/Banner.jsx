@@ -25,7 +25,7 @@ function Banner() {
         };
     }, []);
     return (
-        <section className="relative bg-cea bg-[#29ABDF] bg-cover w-full h-full p-4 pb-0">
+        <section className="relative bg-cea bg-[#29ABDF] bg-cover w-full h-full rounded-b-3xl overflow-hidden p-4 pb-0">
             <div className="absolute inset-0 bg-my-blue-dark opacity-70"></div>
             <div className="relative z-10">
                 <Header />
@@ -33,7 +33,7 @@ function Banner() {
                 <Button
                     outline={true}
                     text="Book an Appointment"
-                    styles={"max-md:block max-md:mt-4 max-md:mx-auto"}
+                    styles={"max-md:block max-md:mt-6 max-md:mx-auto"}
                 />
             </div>
             <div className="relative z-10 flex justify-center min-h-64">

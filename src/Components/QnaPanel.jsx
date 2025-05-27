@@ -23,10 +23,7 @@ export default function QnaPanel({ question, answer, expanded = false }) {
                     expand ? "max-h-44" : "max-h-0"
                 } transition-all duration-800 ease-in-out overflow-hidden`}
             >
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus porro qui deleniti cumque cupiditate, id minima ex
-                veritatis, necessitatibus dicta distinctio quam facere doloribus
-                adipisci dolor ipsum unde temporibus repellendus.
+                {answer}
             </p>
         </div>
     );

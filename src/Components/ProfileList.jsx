@@ -11,10 +11,10 @@ function ProfileList() {
             </div>
             <div className="flex gap-4 *:cursor-pointer align-middle">
                 <span className=" bg-my-green-light lg:p-3 p-1 align-middle justify-center h-fit rounded-full inline-block">
-                    <LeftIcon styles={"size-8"} />
+                    <LeftIcon styles={"size-8 max-md:size-6"} />
                 </span>
                 <span className="lg:p-3 p-1 rotate-180 h-fit bg-my-green align-middle justify-center rounded-full inline-block">
-                    <LeftIcon styles={"size-8"} />
+                    <LeftIcon styles={"size-8 max-md:size-6"} />
                 </span>
                 <div className="w-full lg:h-2 h-1 bg-my-blue-light rounded-full self-center">
                     <div className="w-1/5 bg-my-blue h-full hover:bg-my-blue-dark rounded-full"></div>

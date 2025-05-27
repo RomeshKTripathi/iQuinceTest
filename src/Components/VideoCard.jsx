@@ -12,7 +12,7 @@ function VideoCard() {
                 </span>
                 <TextLink
                     text="Exclusive Interview with Mario Lopez"
-                    styles="underline text-my-blue max-md:text-sm self-center"
+                    styles="underline text-my-blue self-center"
                 />
             </div>
         </div>

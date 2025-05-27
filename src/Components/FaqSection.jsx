@@ -1,6 +1,7 @@
 import React from "react";
 import TextLink from "./TextLink";
 import QnaPanel from "./QnaPanel";
+import { FAQs } from "../data/data";
 
 function FaqSection() {
     return (
@@ -12,14 +13,14 @@ function FaqSection() {
                 </span>
             </div>
             <div className="bg-white lg:w-1/2 ">
-                <QnaPanel />
-                <hr />
-                <QnaPanel />
-                <hr />
-                <QnaPanel />
-                <hr />
-                <QnaPanel />
-                <hr />
+                {FAQs.map((Q) => {
+                    return (
+                        <>
+                            <QnaPanel key={Q.id} {...Q} />
+                            <hr />
+                        </>
+                    );
+                })}
             </div>
         </div>
     );

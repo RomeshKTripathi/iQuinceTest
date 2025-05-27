@@ -1,5 +1,3 @@
-import React from "react";
-import TextLink from "./TextLink";
 import { map } from "../assets/images";
 import { locations } from "../data/data";
 import Chip from "./Chip";
@@ -10,7 +8,7 @@ function LocationSearch() {
             <div className="rounded-xl lg:rounded-3xl w-full overflow-hidden flex max-md:flex-col-reverse">
                 <img src={map} className="lg:w-3/5 object-cover" alt="" />
                 <div className="bg-my-blue lg:w-2/5 p-8">
-                    <span className="uppercase text-black underline block max-md:text-center mb-4">
+                    <span className="uppercase text-white font-medium block max-md:text-center mb-4">
                         Locations
                     </span>
                     <div className="max-md:hidden flex flex-wrap gap-3">
@@ -18,7 +16,7 @@ function LocationSearch() {
                             <Chip key={location.id} text={location.name} />
                         ))}
                     </div>
-                    <select className="w-full border md:hidden block border-white text-white bg-my-blue *:bg-white *:text-my-blue rounded-full lg:p-4 px-4 py-3 outline-0">
+                    <select className="w-full border md:hidden block border-white text-white bg-my-blue *:bg-white *:text-my-blue rounded-full lg:p-4 px-3 py-2 outline-0">
                         <option value={""}>Choose a Location ...</option>
                         <option value={"China"}>China</option>
                         <option value={"India"}>India</option>

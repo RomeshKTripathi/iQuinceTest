@@ -2,6 +2,50 @@ import { blog1, blog2, blog3, profile1 } from "../assets/images";
 import { profile2 } from "../assets/images";
 import { profile3 } from "../assets/images";
 
+export const FAQs = [
+    {
+        id: 1,
+        question: "What are the common symptoms of depression?",
+        answer: "Common symptoms include persistent sadness, loss of interest in activities, fatigue, changes in sleep or appetite, difficulty concentrating, feelings of worthlessness, and thoughts of self-harm or suicide. These symptoms typically last for more than two weeks.",
+    },
+    {
+        id: 2,
+        question: "How can I tell if I have anxiety or if I’m just stressed?",
+        answer: "Stress is usually a reaction to a specific external cause and tends to go away once the issue is resolved. Anxiety is more persistent, often without a clear cause, and includes symptoms like excessive worry, restlessness, irritability, and physical symptoms like a rapid heartbeat or nausea.",
+    },
+    {
+        id: 3,
+        question:
+            "What is bipolar disorder and how is it different from depression?",
+        answer: "Bipolar disorder includes mood swings that range from depressive lows to manic or hypomanic highs. Unlike depression, which is consistently low mood, bipolar disorder involves episodes of both elevated and depressed moods.",
+    },
+    {
+        id: 4,
+        question: "What are effective strategies for weight management?",
+        answer: "Effective strategies include balanced eating, regular physical activity, adequate sleep, stress management, and behavior changes like mindful eating and setting realistic goals. Consulting a healthcare provider or dietitian is also recommended.",
+    },
+    {
+        id: 5,
+        question: "How can I cope with grief after losing a loved one?",
+        answer: "Coping with grief involves allowing yourself to feel emotions, seeking support from friends, family, or professionals, maintaining routines, and being patient with your healing process. Grief has no set timeline and looks different for everyone.",
+    },
+    {
+        id: 6,
+        question: "What are the symptoms of ADHD in adults?",
+        answer: "Symptoms of ADHD in adults can include difficulty focusing, disorganization, forgetfulness, restlessness, impulsivity, and trouble managing time or completing tasks. These symptoms can impact work and relationships.",
+    },
+    {
+        id: 7,
+        question: "What does ADHD testing involve?",
+        answer: "ADHD testing typically includes clinical interviews, behavior rating scales, questionnaires, and sometimes cognitive or psychological tests. It should be done by a qualified healthcare provider such as a psychologist or psychiatrist.",
+    },
+    {
+        id: 8,
+        question: "What are the signs and symptoms of PTSD?",
+        answer: "PTSD symptoms may include flashbacks, nightmares, severe anxiety, emotional numbness, irritability, and avoidance of reminders of the traumatic event. Symptoms usually persist for more than a month and interfere with daily functioning.",
+    },
+];
+
 export const locations = [
     { id: 1, name: "India" },
     { id: 2, name: "United States" },

@@ -20,7 +20,7 @@ function OurBlogs() {
                     outline={true}
                 />
             </div>
-            <div className="lg:grid lg:grid-cols-3 lg:gap-8 lg:mt-20 max-md:*:mb-8">
+            <div className="lg:grid lg:grid-cols-3 lg:gap-8 lg:mt-20 max-md:*:mb-12">
                 <Blog {...blogData[0]} />
                 <Blog {...blogData[1]} styles={"lg:-mt-12"} />
                 <Blog {...blogData[2]} />
