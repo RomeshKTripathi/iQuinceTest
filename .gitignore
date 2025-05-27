@@ -1,0 +1,38 @@
+# General ignores
+.DS_Store
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# Build folder
+build
+dist
+
+# Logs
+logs
+*.log
+debug.log
+
+# Dependency directories
+**/node_modules
+
+# System files
+Thumbs.db
+
+# IDE and OS generated files
+.idea
+*.swp
+*.swo
+*.vscode
+
+# Temporary files
+temp
+tmp
