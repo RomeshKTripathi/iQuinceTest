@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import Button from "./Button";
 import Links from "./Links";
 import { links } from "../data/data";
+import HamburgerIcon from "../assets/Icons/HamburgerIcon";
 
 function Header() {
     return (
@@ -14,6 +15,9 @@ function Header() {
                     International Clients
                 </a>
                 <Button text="Get Started" />
+            </div>
+            <div className="md:hidden bg-my-green p-2 rounded-full">
+                <HamburgerIcon styles={"size-6"} />
             </div>
         </div>
     );
