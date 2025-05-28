@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import Button from "./Button";
 import Links from "./Links";
-import { links } from "../data/data";
+import { links, navlinks } from "../data/data";
 import HamburgerIcon from "../assets/Icons/HamburgerIcon";
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
         <>
             <div className="w-auto  flex justify-between bg-white p-2 md:px-3 md:py-2 rounded-full">
                 <Logo />
-                <Links links={links} />
+                <Links links={navlinks} />
                 <div className="flex max-lg:hidden *:self-center gap-4">
                     <a className="text-[#29ABDF] cursor-pointer" href="#">
                         International Clients
@@ -26,16 +26,14 @@ function Header() {
                 </div>
             </div>
             <div
-                className={`absolute z-20 lg:hidden right-0 max-md:w-1/2 max-lg:w-52 max-w-full bg-white rounded-2xl p-4 transition duration-200 ml-auto ${
+                className={`absolute z-auto lg:hidden right-0 max-md:w-1/2 max-lg:w-52 max-w-full bg-white rounded-2xl p-4 transition duration-200 ml-auto ${
                     showMenu ? "translate-x-0" : "translate-x-56 opacity-0"
                 }`}
             >
                 <ul className="*:p-2 *:block  *:text-center text-my-dark-green *:border-b-[1px] ">
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Treatments</li>
-                    <li>Articles</li>
+                    {navlinks.map((link) => (
+                        <li key={link.id}>{link.title}</li>
+                    ))}
                 </ul>
             </div>
         </>

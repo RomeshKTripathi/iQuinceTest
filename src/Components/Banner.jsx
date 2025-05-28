@@ -36,7 +36,7 @@ function Banner() {
                     styles={"max-lg:block max-lg:my-6 max-lg:mx-auto"}
                 />
             </div>
-            <div className="relative z-10 flex justify-center min-h-64">
+            <div className="relative z-1 flex justify-center lg:h-96">
                 <RenderImage image={list[image]} />
             </div>
         </section>

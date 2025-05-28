@@ -2,6 +2,33 @@ import { blog1, blog2, blog3, profile1 } from "../assets/images";
 import { profile2 } from "../assets/images";
 import { profile3 } from "../assets/images";
 
+export const navlinks = [
+    {
+        id: 1,
+        title: "Home",
+    },
+    {
+        id: 2,
+        title: "About",
+    },
+    {
+        id: 3,
+        title: "Treatment",
+    },
+    {
+        id: 4,
+        title: "Testimonials",
+    },
+    {
+        id: 5,
+        title: "Insurance",
+    },
+    {
+        id: 6,
+        title: "Contact Us",
+    },
+];
+
 export const FAQs = [
     {
         id: 1,
