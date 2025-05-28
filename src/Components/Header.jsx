@@ -22,12 +22,12 @@ function Header() {
                     onClick={() => setShowMenu((prev) => !prev)}
                     className="lg:hidden bg-my-green p-2 rounded-full"
                 >
-                    <HamburgerIcon styles={"size-6"} />
+                    <HamburgerIcon styles={"max-md:size-6 max-lg:size-8"} />
                 </div>
             </div>
             <div
                 className={`absolute z-20 lg:hidden right-0 max-md:w-1/2 max-lg:w-52 max-w-full bg-white rounded-2xl p-4 transition duration-200 ml-auto ${
-                    showMenu ? "translate-x-0" : "translate-x-56"
+                    showMenu ? "translate-x-0" : "translate-x-56 opacity-0"
                 }`}
             >
                 <ul className="*:p-2 *:block  *:text-center text-my-dark-green *:border-b-[1px] ">
