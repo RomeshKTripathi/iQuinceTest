@@ -6,9 +6,9 @@ function VideoCard() {
     return (
         <div className="flex flex-col gap-4 lg:w-1/2">
             <img className="rounded-xl" src={promo} alt="Loading..." />
-            <div className="flex lg:gap-5 gap-3 align-middle">
-                <span className="bg-my-blue h-fit rounded-full lg:p-4 p-3 inline-block">
-                    <PlayIcon styles={"lg:size-6 size-4"} />
+            <div className="flex md:gap-5 gap-3 align-middle">
+                <span className="bg-my-blue h-fit rounded-full md:p-4 p-3 inline-block">
+                    <PlayIcon styles={"md:size-6 size-4"} />
                 </span>
                 <TextLink
                     text="Exclusive Interview with Mario Lopez"

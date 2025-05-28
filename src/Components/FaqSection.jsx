@@ -5,10 +5,10 @@ import { FAQs } from "../data/data";
 
 function FaqSection() {
     return (
-        <div className="p-4 lg:p-20 flex max-md:flex-col max-md:gap-4 ">
+        <div className="p-4 md:p-20 flex max-lg:flex-col max-md:gap-4 max-lg:gap-12 ">
             <div className="lg:w-1/2">
                 <TextLink text={"FREQUENTLY ASKED QUESTIONS"} />
-                <span className="lg:text-6xl block lg:mt-4 max-md:text-center  font-medium">
+                <span className="md:text-6xl block md:mt-4 max-md:text-center  font-medium">
                     Your Answers to Popular Questions
                 </span>
             </div>

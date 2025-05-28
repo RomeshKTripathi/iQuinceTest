@@ -9,9 +9,9 @@ function Carousel() {
     };
     return (
         <div
-            className={`w-full lg:mt-12 mt-4 transition-transform duration-500 ${image} bg-cover `}
+            className={`w-full md:mt-12 mt-4 transition-transform duration-500 ${image} bg-cover `}
         >
-            <div className="h-full w-full bg-black/50 max-md:flex max-md:overflow-x-scroll lg:grid lg:grid-cols-3">
+            <div className="h-full w-full bg-black/50 max-md:flex max-md:overflow-x-scroll md:grid md:grid-cols-3">
                 {carouselData.map((obj) => (
                     <CarouselBlock
                         key={obj.id}

@@ -11,7 +11,7 @@ function FooterMobile() {
     return (
         <div className=" relative bg-illustration bg-cover h-full w-full">
             <div className="absolute inset-0  bg-black opacity-95"></div>
-            <div className="relative flex flex-col gap-4 z-10 p-4 text-white">
+            <div className="relative flex flex-col gap-4 z-10 p-4 md:px-20 text-white">
                 <div>
                     <img
                         src={concioushealth}
@@ -19,12 +19,12 @@ function FooterMobile() {
                         alt=""
                     />
                 </div>
-                <div className="text-center text-xs text-my-dark-green font-medium">
+                <div className="text-center text-xs md:text-sm text-my-dark-green font-medium">
                     Making high quality mental health care easily accessible,
                     affordable and timely for everyone. Because your mental
                     health should not wait.
                 </div>
-                <div className="text-center text-xl">
+                <div className="text-center text-xl font-medium">
                     info@conscientiahealth.com
                     <br />
                     (877) 803-5342 (Phone)

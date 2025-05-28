@@ -3,7 +3,7 @@ import TextLink from "./TextLink";
 
 function ArticleCard() {
     return (
-        <div className="lg:p-4 max-md:text-xs lg:w-1/2 flex flex-col gap-6">
+        <div className="md:p-4 max-md:text-xs lg:w-1/2 flex flex-col gap-6">
             <TextLink text="OUR MISSION" />
             <div className="max-md:text-xs flex flex-col gap-4">
                 <p>

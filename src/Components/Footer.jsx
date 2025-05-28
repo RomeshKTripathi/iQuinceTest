@@ -11,8 +11,8 @@ import Copyright from "./Copyright";
 function Footer() {
     return (
         <div className=" relative bg-illustration bg-cover h-full w-full">
-            <div className="absolute inset-0 lg:bg-gradient-to-r lg:from-my-blue lg:to-my-dark-green bg-black opacity-95"></div>
-            <div className="relative flex z-10 lg:p-20 p-4 text-white">
+            <div className="absolute inset-0 md:bg-gradient-to-r md:from-my-blue md:to-my-dark-green bg-black opacity-95"></div>
+            <div className="relative flex z-10 md:p-20 p-4 text-white">
                 <div className="w-1/3 flex flex-col gap-8 font-medium ">
                     <span className="text-xl block font-normal">
                         Making high quality mental health care easily
@@ -31,7 +31,7 @@ function Footer() {
                     </span>
                     <Button
                         text="Find Providers By Store"
-                        styles="w-fit lg:mt-8"
+                        styles="w-fit md:mt-8"
                         outline={true}
                     />
                 </div>
@@ -72,11 +72,11 @@ function Footer() {
                     <SignupForEmail />
                 </div>
             </div>
-            <div className="relative z-10 lg:px-20 lg:py-8 p-4 text-white">
+            <div className="relative z-10 md:px-20 md:py-8 p-4 text-white">
                 <div className="w-full h-[1px] bg-white/70 rounded-full"></div>
-                <div className="flex justify-between lg:text-xs mt-2">
+                <div className="flex *:w-1/3   md:text-xs mt-2">
                     <Copyright />
-                    <div className="flex gap-3 *:cursor-pointer">
+                    <div className="flex justify-center gap-3 self-center *:cursor-pointer">
                         <RoundIcon>
                             <FacebookIcon styles={"size-4"} />
                         </RoundIcon>
@@ -89,7 +89,7 @@ function Footer() {
                             <LinkedinIcon styles={"size-4"} />
                         </RoundIcon>
                     </div>
-                    <div>Privacy | Terms</div>
+                    <div className="text-end">Privacy | Terms</div>
                 </div>
             </div>
         </div>

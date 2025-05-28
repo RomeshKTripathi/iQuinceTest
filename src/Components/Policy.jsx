@@ -3,8 +3,8 @@ import Button from "./Button";
 
 function Policy() {
     return (
-        <section className=" lg:p-20 p-4">
-            <div className="w-full lg:flex lg:rounded-3xl rounded-2xl overflow-hidden">
+        <section className=" md:p-20 p-4">
+            <div className="w-full lg:flex md:rounded-3xl rounded-2xl overflow-hidden">
                 <div className="lg:w-1/2">
                     <img
                         src={PolicyImage}
@@ -12,12 +12,12 @@ function Policy() {
                         alt=""
                     />
                 </div>
-                <div className="lg:w-1/2  lg:px-16 lg:py-20 p-8 bg-my-blue flex flex-col lg:gap-8 gap-6">
-                    <span className="block lg:text-3xl text-2xl max-md:text-center leading-[30px] font-medium text-white">
+                <div className="lg:w-1/2  md:px-16 md:py-20 p-8 bg-my-blue flex flex-col md:gap-8 gap-6">
+                    <span className="block md:text-3xl text-2xl max-lg:text-center leading-[30px] font-medium text-white">
                         Are You Coverd? <br />
                         Insurance Deductibles
                     </span>
-                    <p className="text-white font-light max-md:text-center max-md:text-xs max-md:leading-5">
+                    <p className="text-white font-light max-lg:text-center max-md:text-xs max-md:leading-5">
                         A health insurance deductible is a set amount of money
                         that an insured person must pay out of pocket every year
                         for eligible healthcare services before the insurance
@@ -25,7 +25,7 @@ function Policy() {
                     </p>
                     <Button
                         text="View Our Policy"
-                        styles={"w-fit max-md:mx-auto"}
+                        styles={"w-fit max-lg:mx-auto"}
                         outline={true}
                     />
                 </div>

@@ -4,7 +4,7 @@ import ArticleCard from "./ArticleCard";
 
 function MissionCard() {
     return (
-        <div className="flex max-md:flex-col gap-4 ">
+        <div className="flex max-lg:flex-col gap-4 ">
             <VideoCard />
             <ArticleCard />
         </div>

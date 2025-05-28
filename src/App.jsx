@@ -19,7 +19,7 @@ function App() {
         <>
             <section className="w-full bg-blue-200/10 pb-8  bg-cover h-full">
                 <Banner />
-                <div className="lg:container lg:p-8 p-4 lg:my-10 mx-auto ">
+                <div className="md:container lg:p-8 p-4 lg:my-10 mx-auto ">
                     <ActionCard />
                     <MissionCard />
                 </div>
@@ -38,17 +38,17 @@ function App() {
                 </div>
                 <Carousel />
             </section>
-            <section className="flex max-md:flex-col gap-12 lg:my-20 p-4">
+            <section className="flex max-lg:flex-col gap-12 md:my-16 lg:my-20 p-4 md:p-20">
                 <div className="lg:w-2/5 lg:ml-20 flex flex-col gap-4">
                     <TextLink
                         text="MEET THE TEAM"
                         url=""
-                        styles="text-my-green underline max-md:text-center "
+                        styles="text-my-green underline max-lg:text-center "
                     />
-                    <h3 className="text-3xl max-md:text-2xl font-medium max-md:text-center">
+                    <h3 className="text-3xl max-md:text-2xl font-medium max-lg:text-center">
                         We are a team of Highly <br /> Passionate Providers.
                     </h3>
-                    <p className="max-md:text-center max-md:text-xs">
+                    <p className="max-lg:text-center max-md:text-xs">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Nobis obcaecati harum dolorem consequuntur vitae ut
                         doloremque debitis blanditiis ratione maiores, beatae
@@ -57,7 +57,7 @@ function App() {
                     </p>
                     <Button
                         text="Explore More"
-                        styles={"w-fit max-md:mx-auto"}
+                        styles={"w-fit max-lg:mx-auto"}
                     />
                 </div>
                 <div className="lg:w-3/5">
@@ -70,10 +70,10 @@ function App() {
             <FaqSection />
             <LocationSearch />
             <ActionFooter />
-            <div className="max-md:hidden">
+            <div className="max-lg:hidden">
                 <Footer />
             </div>
-            <div className="md:hidden">
+            <div className=" lg:hidden">
                 <FooterMobile />
             </div>
         </>

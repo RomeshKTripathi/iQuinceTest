@@ -33,7 +33,7 @@ function Banner() {
                 <Button
                     outline={true}
                     text="Book an Appointment"
-                    styles={"max-md:block max-md:mt-6 max-md:mx-auto"}
+                    styles={"max-lg:block max-lg:my-6 max-lg:mx-auto"}
                 />
             </div>
             <div className="relative z-10 flex justify-center min-h-64">
